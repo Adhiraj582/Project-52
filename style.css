@@ -1,0 +1,71 @@
+.menu{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-color: black;
+    border-width: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    
+}
+
+body{
+    background-color: #00cec9;
+}
+
+.bodyimg {
+    background-color: #EE5A24;
+    color: #1B1464;
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
+    text-decoration-line: underline ;
+}
+
+.bodyimg p{
+    padding-left: 420px;
+    padding-top: 80px;
+    font-size: 50px;
+}
+
+.bodyimg h3{
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 70px;
+}
+
+.origami{
+    display: flex;
+    flex-wrap: wrap;
+
+    border-radius: 20px;
+    background-color: #0984e3;
+    width: 310px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.grid img{
+    margin-left: 50px;
+    border:2px solid black;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif ;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: thistle;
+}
+
+.origami:hover{
+    transform: scale(1.2);
+}
